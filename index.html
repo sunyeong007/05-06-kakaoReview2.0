@@ -148,23 +148,24 @@
     
     
     
-    
-
     <script>
         $(document).ready(function() {
             $('#fullpage').fullpage({
                 //options here
-                autoScrolling:true,
-                scrollHorizontally: true,
+                
                 anchors:['section1','section2','section3','section4','section5', 'section6', 'section7', 'section8'],
                 navigation:true,
-                navigationPosition:'right'
+                navigationPosition:'right',
+                autoScrolling:true,
+                scrollHorizontally: true
             });
 
             //methods
-//             $.fn.fullpage.setAllowScrolling(false);
+            // $.fn.fullpage.setAllowScrolling(false);
         });
     </script>
+
+
     
 </body>
 </html>
