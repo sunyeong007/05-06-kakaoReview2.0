@@ -151,14 +151,19 @@
     
 
     <script>
-        new fullpage('#fullpage', {
-            //options here
-            autoScrolling:true,
-            scrollHorizontally: true
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                //options here
+                autoScrolling:true,
+                scrollHorizontally: true,
+                anchors:['section1','section2','section3','section4','section5', 'section6', 'section7', 'section8'],
+                navigation:true,
+                navigationPosition:'right'
+            });
+
+            //methods
+            $.fn.fullpage.setAllowScrolling(false);
         });
-        
-        //methods
-        fullpage_api.setAllowScrolling(false);
     </script>
     
 </body>
