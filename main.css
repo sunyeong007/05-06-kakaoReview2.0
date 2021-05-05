@@ -8,12 +8,13 @@
     .notosanskr * { 
     font-family: 'Noto Sans KR', sans-serif;
 }
-body, h1, h2, h3, p  {margin:0;  line-height:1.1em;}
+body, h1, h2, h3, p {margin:0;  line-height:1.1em;}
 img{width:100%; float:left;}
 h1{font-size:4.3em; font-family:'TmoneyRoundWindExtraBold'; padding-top:100px;}
 h2{font-size:50px; font-family:'TmoneyRoundWindExtraBold'; padding-top:150px; }
 h3{font-size:35px; font-family:'TmoneyRoundWindExtraBold'; padding-top: 15px;}
-p{font-size:1.5em; font-family:'Noto Sans KR', sans-serif; padding-top:35px; line-height:1.4em}
+p{font-size:1.5em; font-family:'Noto Sans KR', sans-serif; padding-top:35px; line-height:1.4em;}
+.section{overflow:hidden;}
 header{
     position:fixed;
     left:0;
@@ -301,4 +302,4 @@ header nav ul li a:hover{
     text-align: center;  
     line-height:1.5em  
 }
-.section{overflow:hidden;}
+
